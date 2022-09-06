@@ -35,4 +35,5 @@ function deleteItem(e){
     var newList=listGetFromServer.filter(item=>item!==targetValue)
     localStorage.setItem("ul",JSON.stringify(newList))
     showListItem()
+
 }
