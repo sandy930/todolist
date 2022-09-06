@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./css/main.css"/>
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email"/>
+            <p class="email warn"></p>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Ex:'Duyen huynh..'"/>
+            <p class="username warn"></p>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Greater than 8 digits"/>
+            <p class="password warn"></p>
+
+            <label for="repassword">Enter password again</label>
+            <input type="password" name="repassword" id="rePassword"/>
+            <p class="rePassword warn"></p>
+
+            <button type="submit" id="signUp" class="btn">Sign up</button>
+        </form>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
